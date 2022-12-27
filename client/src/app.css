@@ -12,6 +12,11 @@
   font-weight: bold;
 }
 
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
 .list {
   display: flex;
   align-items: center;

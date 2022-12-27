@@ -1,7 +1,9 @@
+import { useParams } from 'react-router-dom';
 import { posts } from '../data';
 
 export default function Post() {
-  const post = posts[2];
+  const { id } = useParams();
+  const post = posts[id - 1];
 
   return (
     <div className="post">
